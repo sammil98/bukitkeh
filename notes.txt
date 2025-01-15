@@ -1,0 +1,78 @@
+Beranda / Home (Statis) (Vidio / foto Statis)
+About Us (Profiling) (Statis)
+Sejarah (Statis)
+Contact Us
+
+Destinasi (Dinamis) 
+Artikel / Pengumuman (Dinamis) (Komentar + rating)
+Gallery (Foto / Vidio)(Dinamis)
+Product (Dinamis)
+
+
+Fasitilas (Title, Photo, Short Description)
+Aparatur / Pejabar (Name, Photo, jabatan)
+
+Fitur Tambahan
+-> Display Data Pengunjung (Grafik)
+	-> Admin Isi Form (Create) -> Nama Pendapatan / Title -> Target ->
+	-> Pendapatan -> bulan -> tahun 
+	-> table Statistik Pendapatan
+		-> id
+		-> title 
+		-> Target (int)
+		-> Actual (int)
+		-> Bulan
+		-> tahun
+		
+	-> Admin Isi form Statistik Pengunjung -> Bulan -> Tahun -> jumlah 
+		laki-laki -> jumlah Perempuan -> belum mengisi -> Total
+	-> Table Statistik  
+		-> id
+		-> Bulan
+		-> tahun
+		-> laki-laki
+		-> perempuan
+		-> belum mengisi
+		
+Home 	About us 	Destinasi 	galery		Product 	Artikel  	contact us
+	-> sejarah
+	-> statistik
+
+1.150.000 (150.000)
+
+1.000.000 (8 Fitur) 150.000 
+
+4 x 150.000 = 600.000 + 1.000.000 + 150.000 - 300.000
+
+1.500.000 
+
+
+Dipersiapkan
+
+XAMPP (php 8.2)
+Visual Studio (Cursor AI)
+Composer 
+Github + Gitbash
+
+
+Pemesanan Tiket 
+-> Jenis-Jenis tiket, Harga, Nomer Rekening Pembayaran, 
+
+CRUD Admin
+-> Jenis tiket (nama tiket, harga)
+-> Payment Information (Rekening Pembayaran)
+-> View Report Booking, (Bukti Pembayaran dari User -> Acc)
+-> View Booking User
+
+CRUD User
+-> View Catalog Tiket (Nama, Harga)
+-> Pemesanan  Tiket (Milih Tiket, Tanggal, Quantity, Upload Bukti Pembayaran)
+-> Nomor Pesanan
+-> View Pesanan by nomor pesanan (Status Pemesanan Tiket -> view e-tiket)
+-> E Tiket (Kode Booking)
+
+
+-> CRUD Table (Tiket, Rekening Pembayaran, Report Booking)
+
+-> Menu Admin +3 menu
+-> Menu User Catalog, Pemesanan, Succes Transaksi, Cek Status, E tiket (+5 Halaman)
